@@ -1,4 +1,3 @@
-const { expect } = require("@jest/globals");
 const promisePolyfill = require("./promisePolyfill");
 
 describe("Then handler of promise should work properly", () => {
