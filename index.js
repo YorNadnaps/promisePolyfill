@@ -30,7 +30,7 @@ class promisePolyfill {
     this._reason;
 
     /**
-     * Need to ensure executor runs asynchronously as per JS promise specs.
+     * Need to ensure executor runs asynchronously as per JS promise spec.
      * So, we wrap it within setTimeout.
      */
     setTimeout(() => {
