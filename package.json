@@ -1,0 +1,22 @@
+{
+  "name": "promise-polyfill",
+  "version": "1.0.0",
+  "description": "A polyfill for JS Promise to develop an understanding of how it works behind the scenes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YorNadnaps/promisePolyfill.git"
+  },
+  "author": "Yor Nadnaps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YorNadnaps/promisePolyfill/issues"
+  },
+  "homepage": "https://github.com/YorNadnaps/promisePolyfill#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
