@@ -89,6 +89,9 @@ class promisePolyfill {
       this.state = states.REJECTED;
       this.runRejectionHandler();
 
+      /**
+       * Reject existing handlers in then queue with rejection reason if promise has been rejected.
+       */
       while (this.thenQ.length > 0) {
         const { promise } = this.thenQ.shift();
         promise._reject(this._reason);
